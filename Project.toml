@@ -1,0 +1,13 @@
+name = "TOV"
+uuid = "62bc0511-a336-4cf7-b18b-06a406332e14"
+authors = ["Stamatis Vretinaris", "Gabriele Bozzola"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
