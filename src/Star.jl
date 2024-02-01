@@ -41,7 +41,7 @@ end
 end
 
 function solve2(star::StarType{T}) where {T}
-    tmp = EOS.ρ_to_P(star.eos, star.ρ_c)
+    tmp = EOS.ρ_to_P(star.eos, star.ρ_c) # why doesn't it see it since I export it?
     initial_state = [tmp, zero(T), -one(T)]
     r_span = (zero(T), 100.0) # why 100?
 
