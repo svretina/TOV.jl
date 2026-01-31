@@ -9,7 +9,7 @@
 [![Build Status](https://github.com/YOUR_USERNAME/TOV.jl/workflows/CI/badge.svg)](https://github.com/YOUR_USERNAME/TOV.jl/actions)
 [![Aqua.jl](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 [![JET.jl](https://img.shields.io/badge/%F0%9F%9B%A9%EF%B8%8F_tested_with-JET.jl-232f3e)](https://github.com/aviatesk/JET.jl)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 **TOV.jl** is a high-performance Julia library for solving the **Tolman-Oppenheimer-Volkoff (TOV)** equations of relativistic stellar structure. Designed for researchers in **Numerical Relativity** and **Nuclear Astrophysics**, it provides a rigorous, modular framework for constructing and analyzing compact star models.
 
@@ -61,7 +61,7 @@ Compute sequences to identify stable branches and maximum mass limits.
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/YOUR_USERNAME/TOV.jl")
+Pkg.add(url="https://github.com/svretina/TOV.jl")
 ```
 
 ## Contributing
@@ -70,4 +70,4 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
