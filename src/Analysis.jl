@@ -11,7 +11,7 @@ using ProgressLogging
 
 export Sequence
 export solve_sequence
-export plot_dashboard
+
 
 """
     Sequence{E<:AbstractEOS}
