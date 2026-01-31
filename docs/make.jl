@@ -1,12 +1,13 @@
 using TOV
 using Documenter
+using CairoMakie
 
 DocMeta.setdocmeta!(TOV, :DocTestSetup, :(using TOV); recursive=true)
 
 makedocs(;
     modules=[TOV],
     authors="Stamatis Vretinaris, Gabriele Bozzola",
-    repo="https://github.com/svretina/TOV.jl/blob/{commit}{path}#{line}",
+    repo=Remotes.GitHub("svretina", "TOV.jl"),
     sitename="TOV.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
