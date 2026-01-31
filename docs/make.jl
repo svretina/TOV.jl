@@ -24,5 +24,5 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/svretina/TOV.jl",
-    devbranch="main",
+    devbranch="master",
 )
