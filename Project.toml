@@ -17,7 +17,6 @@ UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 [compat]
 CairoMakie = "0.15.8"
 DataInterpolations = "8.9.0"
-JET = "0.9"
 LaTeXStrings = "1.4.0"
 OrdinaryDiffEq = "6.70.0"
 Unitful = "1.28.0"
@@ -25,15 +24,3 @@ UnitfulAstro = "1.2.2"
 julia = "1.10"
 ProgressLogging = "0.1"
 Reexport = "1"
-Aqua = "0.8"
-Documenter = "1"
-Test = "1"
-
-[extras]
-Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
-Documenter = "e30172f5-a6a5-5a46-863b-614d0552d93e"
-JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-[targets]
-test = ["Test", "Aqua", "JET"]

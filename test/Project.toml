@@ -1,0 +1,14 @@
+[deps]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+TOV = "62bc0511-a336-4cf7-b18b-06a406332e14"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[compat]
+Aqua = "0.8, 1"
+CairoMakie = "0.15.8"
+JET = "0.9, 0.10, 0.11"
+Test = "1"
+Unitful = "1.28.0"
