@@ -37,5 +37,5 @@ f = plot(star)
 
 ```julia
 using Pkg
-Pkg.add(url="https://github.com/YOUR_USERNAME/TOV.jl")
+Pkg.add(url="https://github.com/svretina/TOV.jl")
 ```
