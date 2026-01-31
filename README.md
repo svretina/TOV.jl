@@ -4,9 +4,9 @@
 
 # TOV.jl
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://YOUR_USERNAME.github.io/TOV.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://YOUR_USERNAME.github.io/TOV.jl/dev)
-[![Build Status](https://github.com/YOUR_USERNAME/TOV.jl/workflows/CI/badge.svg)](https://github.com/YOUR_USERNAME/TOV.jl/actions)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://svretina.github.io/TOV.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://svretina.github.io/TOV.jl/dev)
+[![Build Status](https://github.com/svretina/TOV.jl/workflows/CI/badge.svg)](https://github.com/svretina/TOV.jl/actions)
 [![Aqua.jl](https://raw.githubusercontent.com/JuliaTesting/Aqua.jl/master/badge.svg)](https://github.com/JuliaTesting/Aqua.jl)
 [![JET.jl](https://img.shields.io/badge/%F0%9F%9B%A9%EF%B8%8F_tested_with-JET.jl-232f3e)](https://github.com/aviatesk/JET.jl)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
