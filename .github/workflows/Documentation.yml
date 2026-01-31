@@ -18,6 +18,7 @@ jobs:
       - uses: julia-actions/setup-julia@v2
         with:
           version: '1'
+      - uses: julia-actions/cache@v2
       - name: List files
         run: |
             pwd
@@ -30,14 +31,7 @@ jobs:
             using Pkg
             Pkg.develop(PackageSpec(path=pwd()))
             Pkg.instantiate()'
-      - uses: julia-actions/julia-buildpkg@v1
-      - uses: julia-actions/julia-docdeploy@v1
+      - name: Build and deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - run: |
-          julia --project=docs -e '
-            using Documenter: DocMeta, doctest
-            using TOV
-            DocMeta.setdocmeta!(TOV, :DocTestSetup, :(using TOV); recursive=true)
-            doctest(TOV)'
+        run: julia --project=docs/ docs/make.jl
