@@ -47,9 +47,10 @@ function create_tov_logo(filename="tov_logo.svg")
 
     # 2. Position the stars
     dist = 195
-    p_green = Point(0, -dist)
-    p_red = Point(dist * cos(π / 6), dist * sin(π / 6))
-    p_blue = Point(-dist * cos(π / 6), dist * sin(π / 6))
+    y_offset = 40
+    p_green = Point(0, -dist + y_offset)
+    p_red = Point(dist * cos(π / 6), dist * sin(π / 6) + y_offset)
+    p_blue = Point(-dist * cos(π / 6), dist * sin(π / 6) + y_offset)
 
     # Central gravity glow
     # @layer begin
@@ -69,7 +70,7 @@ function create_tov_logo(filename="tov_logo.svg")
     # Top Text: textcurve(string, angle_rotation, radius, center)
     fontsize(80)
     # Luxor's textcurve: center of text is at the angle provided
-    textcurve("TOV.jl", -π / 2 - 0.32, 340, O)
+    textcurve("TOV.jl", -π / 2 - 0.32, 320, O)
 
     # 4. Year
     # fontsize(22)
