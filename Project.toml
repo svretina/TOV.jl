@@ -6,28 +6,34 @@ version = "1.0.0-DEV"
 [deps]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
+
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 UnitfulAstro = "6112ee07-acf9-5e0f-b108-d242c714bf9f"
 
-ProgressLogging = "33c8b6b6-d38a-422a-b730-caa89a2f386c"
-
 [compat]
 CairoMakie = "0.15.8"
 DataInterpolations = "8.9.0"
+JET = "0.9.20"
 LaTeXStrings = "1.4.0"
 OrdinaryDiffEq = "6.70.0"
 Unitful = "1.28.0"
 UnitfulAstro = "1.2.2"
 julia = "1.10"
+ProgressLogging = "0.1"
+Reexport = "1"
+Aqua = "0.8"
+Documenter = "1"
+Test = "1"
 
 [extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
-JET = "c3a5462d-408a-4e81-8b3b-06ecbec43503"
 Documenter = "e30172f5-a6a5-5a46-863b-614d0552d93e"
+JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test", "Aqua", "JET"]

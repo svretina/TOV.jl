@@ -6,7 +6,8 @@ using JET
 @testset "Code Quality (Aqua.jl)" begin
     Aqua.test_all(TOV;
         ambiguities=false, # Often causes false positives with dependencies
-        stale_deps=(ignore=[:ProgressLogging],) # ProgressLogging used via macro?
+        stale_deps=(ignore=[:ProgressLogging],), # ProgressLogging used via macro?
+        persistent_tasks=false, # Often flaky with heavy deps like Makie
     )
 end
 
