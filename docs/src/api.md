@@ -22,6 +22,7 @@ ConstantDensity
 ```@docs
 solve_sequence
 Sequence
-check_causality
-find_stability_branch
+TOV.Analysis.check_causality
+TOV.Analysis.find_stability_branch
+Makie.plot
 ```
